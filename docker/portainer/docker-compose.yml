@@ -12,6 +12,7 @@ services:
       - '/home/docker/portainer:/data'
     container_name: portainer
     networks:
+      - bridge
       - nginxproxymanager_default
 
 networks:
